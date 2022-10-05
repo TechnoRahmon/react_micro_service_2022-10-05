@@ -1,5 +1,5 @@
 {
-  "name": "react-micro-service",
+  "name": "reactmicroservice",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,13 +12,18 @@
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3002 && react-scripts start",
+    "start-Home": " set REACT_APP_NAME=HOME && npm start",
+    "start-Date": " set REACT_APP_NAME=DATE && npm start",
     "build": "react-scripts build",
+    "build-Home": "set REACT_APP_NAME=HOME && set BUILD_PATH=dist/HOME&& react-scripts build",
+    "build-Date": "set REACT_APP_NAME=DATE && set BUILD_PATH=dist/DATE&& react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
