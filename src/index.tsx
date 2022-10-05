@@ -44,7 +44,6 @@ if ( APP_NAME == COMPONENT_NAME.DEV ){
       const rootHome = ReactDOM.createRoot(
         rootHomeHtml as HTMLElement
       );
-      console.log('rootHome ' , rootHome);
     
       rootHome.render(
         <React.StrictMode>

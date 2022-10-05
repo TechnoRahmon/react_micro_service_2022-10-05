@@ -26,6 +26,7 @@
     "build": "react-scripts build",
     "build-Home": "set REACT_APP_NAME=HOME && set BUILD_PATH=dist/HOME&& react-scripts build",
     "build-Date": "set REACT_APP_NAME=DATE && set BUILD_PATH=dist/DATE&& react-scripts build",
+    "build-Dev": "set REACT_APP_NAME=DEV && set BUILD_PATH=dist/DEV&& react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
